@@ -1,4 +1,8 @@
-# BaseRecyclerViewAdapter
+## 如何引入项目
+
+[![](https://jitpack.io/v/AlbertLarry/RecyclerViewAdapter.svg)](https://jitpack.io/#AlbertLarry/RecyclerViewAdapter)
+
+## BaseRecyclerViewAdapter
 通用的RecyclerView适配器。实用简单方便
 ![](a.png)
 
