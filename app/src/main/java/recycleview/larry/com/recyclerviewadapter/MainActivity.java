@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -29,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setOther(RecyclerView recyclerView) {
-        recyclerView.addItemDecoration(new MyLinerDivider(Color.BLUE));
+        recyclerView.addItemDecoration(new MyLinerDivider(Color.GREEN));
     }
 
     private void setRecyclerView(RecyclerSupportViewEmpty recyclerView) {

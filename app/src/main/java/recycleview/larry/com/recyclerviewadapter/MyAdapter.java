@@ -25,7 +25,7 @@ public class MyAdapter extends BaseRecyclerViewAdapter<String> {
         BaseRecyclerViewAdapter.BaseHolder holder = null;
         if (baseHolder instanceof BaseRecyclerViewAdapter.BaseHolder) {
             holder = (BaseHolder) baseHolder;
-            holder.getMyViewHolder().setTextView(R.id.textView, data);
+            holder.getMAlbertViewHolder().setTextView(R.id.textView, data);
         }
     }
 }
